@@ -1,24 +1,47 @@
 
 
 #content {
-  
-  height: 50%;
-  width: 200px;
-max-width: 387px;
+	
 
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+	background: #5786c1;
+	color: white;
+	padding: 8px 14px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block; /* needed for anchors */
+	position: relative;
+	box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+	          2px 1px #3a587f, 1px 2px #4171ae,
+	          3px 2px #3a587f, 2px 3px #4171ae,
+	          4px 3px #3a587f, 3px 4px #4171ae,
+	          5px 4px #3a587f, 4px 5px #4171ae,
+	          6px 5px #3a587f, 5px 6px #4171ae;
+
+	
+
 
 }
 
 .output {
-width: 50px;
-  height: 20px;
-border: double;
-  border-color: yellow;
-margin-bottom: 10px;
+	margin: 10px;
+   	padding: 8px 14px;
+	width: 200px;
+	height: 40px;
+	border: medium;
 
+	padding: 8px 14px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block; /* needed for anchors */
+	position: relative;
+	box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+	          2px 1px #3a587f, 1px 2px #4171ae,
+	          3px 2px #3a587f, 2px 3px #4171ae,
+	          4px 3px #3a587f, 3px 4px #4171ae,
+	          5px 4px #3a587f, 4px 5px #4171ae,
+	          6px 5px #3a587f, 5px 6px #4171ae;
 
 }
 
@@ -27,3 +50,35 @@ margin-bottom: 10px;
 text-align: right;
     width: 100%;
 }
+
+
+/*@import "compass/css3";
+*/
+button {
+  border: 0;
+  width: 40px;
+  margin: 10px;
+  background: #5786c1;
+  color: white;
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block; /* needed for anchors */
+  position: relative;
+    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae,
+              3px 2px #3a587f, 2px 3px #4171ae,
+              4px 3px #3a587f, 3px 4px #4171ae,
+              5px 4px #3a587f, 4px 5px #4171ae,
+              6px 5px #3a587f, 5px 6px #4171ae;
+  }
+
+  button:active {
+    transform: translate(4px, 4px);
+    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae;
+  }
+}
+
+
